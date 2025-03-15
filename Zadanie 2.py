@@ -6,7 +6,7 @@ print("Witaj w prostym programie który ma na celu sprawdzenie czy podane przez 
 numbers = input("Podaj liczbe ! ")
 
 
-if int(numbers) ==  int(numbers) + 1:
+if int(numbers) % 2 == 0:
     print(" Podana liczba jest parzysta ")
 else:
     print(" Podana liczba jest nie parzysta ")
