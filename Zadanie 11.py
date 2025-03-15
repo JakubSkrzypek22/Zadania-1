@@ -21,5 +21,5 @@ while True:
     elif los > wylosowana:
         print("Za dużo! Spróbuj mniejszej liczby.")
     else:
-        print(f"🎉 Brawo! Odgadłeś liczbę: {wylosowana}")
+        print(f"- Brawo! Odgadłeś liczbę: {wylosowana}")
         break  # Koniec gry
